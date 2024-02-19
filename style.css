@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*** 1rem = 10px ***/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/watercolor.png);
+}
+
+.container{
+    max-width: 1200px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1, h2{
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+img{
+    max-width: 50%;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.site-header a{
+    text-decoration: none;
+    color: white;
+}
+
+.site-header h1{
+    text-align: center;
+    font-weight: 200;
+    background-color: palevioletred;
+    color: white;
+}
+
+.navigation a, .hr-nav{
+    text-align: center;
+    display: inline;
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin-right: 2rem;
+    background-color: pink;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.blog{
+    background-color: white;
+    flex: 0 0 100%;
+    flex-basis: 66.6%;
+        order: -1;
+}
+
+.main-content{
+        justify-content: space-between;
+}
+
+.courses{
+        flex-basis: calc(33.3% - 4rem);
+        background-color: white;
+        margin-bottom: 150%;
+}
+
+.site-footer{
+    background-color: pink;
+    padding: 1rem;
+    margin-top: 4rem;
+}
+
+.site-footer p{
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.site-footer p span{
+    font-weight: 700;
+}
+
+i{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3.2rem;
+}
+
